@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.caja{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    /*transition-property: background-color,border-,opacity;
+    transition-duration: 2000ms;*/
+   /* transition:backgroun-color,border-radius,2000ms;  //aqui va todo junto */
+   transition:all 2500ms;
+   display: inline-block;
+}
+.caja:hover{
+    background-color:orange;
+    border-radius:50%;
+}
+.caja:active{
+    transform: scale(0.5);
+    opacity:0.3;
+}
